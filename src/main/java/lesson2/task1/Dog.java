@@ -1,5 +1,6 @@
 package lesson2.task1;
 
+// Ключевое слово final запрещает наследование данного класса
 public final class Dog extends LandAnimal {
 
     public Dog() {
