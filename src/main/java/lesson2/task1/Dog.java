@@ -4,6 +4,8 @@ package lesson2.task1;
 public final class Dog extends LandAnimal {
 
     public Dog() {
+        // Вызов конструктора суперкласса
+        super();
         System.out.println("Вызван конструктор собаки");
     }
 
@@ -13,11 +15,14 @@ public final class Dog extends LandAnimal {
     }
 
     public void bark() {
+        super.feed();
         System.out.println("Woof!");
     }
 
     @Override
     public void feed() {
+        // Вызов метода суперкласса
+        super.feed();
         System.out.println("Собака ест мясо");
     }
 

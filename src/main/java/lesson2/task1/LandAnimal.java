@@ -3,6 +3,7 @@ package lesson2.task1;
 public abstract class LandAnimal extends Animal {
 
     public LandAnimal() {
+        super();
         System.out.println("Вызван конструктор сухопутного животного");
     }
 
