@@ -6,7 +6,7 @@ public class Main {
 
         Class[] classes = new Class[7];
 
-        Cat cat = new Cat();
+        Cat cat = new Cat(7);
 
         cat.test();
 
