@@ -7,14 +7,14 @@ public class SupplierTest {
     public static void main(String[] args) {
 
         Supplier<Integer> supplier = () -> 7;
-        print(supplier);
+        printInfo(supplier);
         System.out.println();
 
         Supplier<Integer> randomSupplier = () -> (int) (Math.random() * 20);
-        print(randomSupplier);
+        printInfo(randomSupplier);
     }
 
-    public static void print(Supplier<Integer> supplier) {
+    public static void printInfo(Supplier<Integer> supplier) {
         for (int i = 0; i < 10; i++) {
             System.out.print(supplier.get() + " ");
         }
